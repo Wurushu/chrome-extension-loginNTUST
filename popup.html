@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+		#menu{
+			padding: 15px 30px;
+			width: 200px;
+			background-color: #fff;
+			border-radius: 15px;
+			text-align: right;
+			font-size: 20px;
+		}
+		#menu>div{
+			margin-top: 20px;
+		}
+		#menu>div>*{
+			vertical-align: middle;
+		}
+		#code{
+			border: 1px #666 solid;
+			outline: 0;
+			padding: 10px;
+			border-radius: 10px;
+			width: 50%;
+		}
+		#btn{
+			background-color: #f73;
+			border: 0;caption-side;
+			outline: 0;
+			padding: 10px 30px;
+			color: #fff;
+			cursor: pointer;
+			border-radius: 7px;
+		}
+		#btn:hover{
+			background-color: #fa3;
+		}
+		#btn:active{
+			background-color: #fd6;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="menu">
+		<div>驗證碼: <input id="code" type="text"></div>
+		<div><button id="btn" type="button">登入</button></div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
